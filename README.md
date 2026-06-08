@@ -1,4 +1,4 @@
-# 🍣👨‍🍳 Macrobiotics-of-Macros
+# 🍣👨‍🍳 Macrobiotics of Macros
 Quasiquotation and the Art of Code Assembly: A Culinary Guide to Lisp Metaprogramming 
 ---
 ![AST à la carte](https://img.shields.io/badge/AST-à%20la%20carte-brown)
