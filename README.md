@@ -16,6 +16,8 @@ P.S. Nel regno dove il codice è dato e il dato è codice, anche i badge devono 
 
 
 ---
+![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue)
+
 
 
 L'homoiconicity nasce con la logica formale e del lambda calcolo (Church, 1936), quando Alonzo Church dimostrò con il suo sistema formale che ogni computazione poteva essere rappresentata come funzione nel senso di funzione totale su un dominio, e ogni funzione poteva ricevere altre funzioni come argomenti, realizzando così una **stratificazione funzionale di ordine superiore** che rendeva la sintassi della definizione isomorfa alla forma della computazione stessa. Allora fermi, una funzione di ordine superiore è solo una funzione che accetta altre funzioni come input. Comunque Church pubblicò i suoi risultati nella *Annals of Mathematics*, e colui che aveva gettato i fondamenti logici, mediante la dimostrazione della computabilità universale del λ-calcolo, si rese conto solo in seguito che stava descrivendo il principio alla base di quello che sarebbe diventato il piatto più elegante e concettualmente puro della storia della programmazione. Successivamente, McCarthy lesse i lavori di Church e ragionando sulle strutture matematiche sottostanti mediante la teoria degli **S-espressioni** si rese conto che se il codice fosse rappresentato come lista, e se la lista costituisse il tipo di dato primitivo e universale di un linguaggio, il quale avrebbe dovuto possedere una **semantica denotazionale isomorfa alla sua sintassi concreta**, allora il codice stesso diverrebbe dato in senso strettamente letterale e strutturale, abolendo la distinzione categoriale tra fase sintattica e fase semantica. McCarthy prese questa intuizione folgorante e la rese vera nel linguaggio LISP (acronimo di "LISt Processing"), creando così il primo linguaggio homoiconic della storia mediante una semantica costruttiva in cui la valutazione stessa è operazione strutturale su dati S-espressivi, anche se il termine tecnico sarebbe stato coniato per decenni ancora.
@@ -103,4 +105,18 @@ In ciascuno di questi linguaggi l'eliminazione della distinzione tra codice e da
 Ecco il vostro piatto, profumato, macrobiotico, semplice, ricorsivo nella sua essenza come funzione priva di caso base evidente, delizioso nella sua semplicità formale, una sola operazione primitiva (applicazione funzionale) che genera un intero universo della computazione, e quando lo mangiate, ascoltate bene, questo è il punto più importante, il piatto vi insegna a cucinare, trasformandovi da consumatori passivi in creatori attivi, da esecutori in architetti di linguaggi e sistemi.
 
 Buon appetito 😋
+
+
+
+---
+
+## 📜 License
+
+© 2025 FabioFGBuono, Chef Metalinguistico e Curatore della Pagina.  
+Rilasciato sotto licenza Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+This work is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.  
+You are free to share and adapt the material for any purpose, even commercially, provided that appropriate credit is given.
+
+For details, see the full license text: https://creativecommons.org/licenses/by/4.0/
 
