@@ -1,6 +1,10 @@
 # 🍣👨‍🍳 Macrobiotics of Macros
 Quasiquotation and the Art of Code Assembly: A Culinary Guide to Lisp Metaprogramming 
+
+
 ---
+
+
 ![AST à la carte](https://img.shields.io/badge/AST-à%20la%20carte-brown)
 ![Lambda Cuisine](https://img.shields.io/badge/λ-cuisine-orange)
 ![Quasiquote Chef](https://img.shields.io/badge/quasiquote-chef-yellow)
@@ -10,9 +14,10 @@ Quasiquotation and the Art of Code Assembly: A Culinary Guide to Lisp Metaprogra
 
 
 
-***Buonasera, signore e signori. Sono lo Chef della Programmazione, e stasera vi presento il mio capolavoro, l'**Homoicinicity à la Récursive**. Prima di servirlo, devo spiegarvi gli ingredienti con precisione formale. Preparatevi, perché questo piatto ha una genealogia che risale ai logici del '36 e si estende fino alle strutture categoriali della teoria dei tipi moderna.*** 
+***Buonasera, signore e signori. Sono lo Chef della Programmazione, e stasera vi presento il mio capolavoro, l'Homoicinicity à la Récursive. Prima di servirlo, devo spiegarvi gli ingredienti con precisione formale. Preparatevi, perché questo piatto ha una genealogia che risale ai logici del '36 e si estende fino alle strutture categoriali della teoria dei tipi moderna.*** 
 
-P.S. Nel regno dove il codice è dato e il dato è codice, anche i badge devono essere metaprogrammati.”*
+
+P.S. Nel regno dove il codice è dato e il dato è codice, anche i badge devono essere metaprogrammati.
 
 
 ---
