@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="it" class="theme-github">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macrobiotics-of-Macros</title>
+
+    <!-- tema GitHub -->
+    <style id="css-github">
+/**
+ * Minified by jsDelivr using clean-css v5.3.3.
+ * Original file: /npm/github-markdown-css@5.5.1/github-markdown-dark.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+html.theme-github .markdown-body {color-scheme:dark;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin:0;color:#e6edf3;background-color:#0d1117;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";font-size:16px;line-height:1.5;word-wrap:break-word}
+html.theme-github .markdown-body .octicon {display:inline-block;fill:currentColor;vertical-align:text-bottom}
+html.theme-github .markdown-body h1:hover .anchor .octicon-link:before,
+html.theme-github .markdown-body h2:hover .anchor .octicon-link:before,
+html.theme-github .markdown-body h3:hover .anchor .octicon-link:before,
+html.theme-github .markdown-body h4:hover .anchor .octicon-link:before,
+html.theme-github .markdown-body h5:hover .anchor .octicon-link:before,
+html.theme-github .markdown-body h6:hover .anchor .octicon-link:before {width:16px;height:16px;content:' ';display:inline-block;background-color:currentColor;-webkit-mask-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");mask-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>")}
+html.theme-github .markdown-body details,
+html.theme-github .markdown-body figcaption,
+html.theme-github .markdown-body figure {display:block}
+html.theme-github .markdown-body summary {display:list-item}
+html.theme-github .markdown-body [hidden] {display:none!important}
+html.theme-github .markdown-body a {background-color:transparent;color:#2f81f7;text-decoration:none}
+html.theme-github .markdown-body abbr[title] {border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}
+html.theme-github .markdown-body b,
+html.theme-github .markdown-body strong {font-weight:600}
+html.theme-github .markdown-body dfn {font-style:italic}
+html.theme-github .markdown-body h1 {margin:.67em 0;font-weight:600;padding-bottom:.3em;font-size:2em;border-bottom:1px solid #21262d}
+html.theme-github .markdown-body mark {background-color:rgba(187,128,9,.15);color:#e6edf3}
+html.theme-github .markdown-body small {font-size:90%}
+html.theme-github .markdown-body sub,
+html.theme-github .markdown-body sup {font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+html.theme-github .markdown-body sub {bottom:-.25em}
+html.theme-github .markdown-body sup {top:-.5em}
+html.theme-github .markdown-body img {border-style:none;max-width:100%;box-sizing:content-box;background-color:#0d1117}
+html.theme-github .markdown-body code,
+html.theme-github .markdown-body kbd,
+html.theme-github .markdown-body pre,
+html.theme-github .markdown-body samp {font-family:monospace;font-size:1em}
+html.theme-github .markdown-body figure {margin:1em 40px}
+html.theme-github .markdown-body hr {box-sizing:content-box;overflow:hidden;background:0 0;border-bottom:1px solid #21262d;height:.25em;padding:0;margin:24px 0;background-color:#30363d;border:0}
+html.theme-github .markdown-body input {font:inherit;margin:0;overflow:visible;font-family:inherit;font-size:inherit;line-height:inherit}
+html.theme-github .markdown-body [type=button],
+html.theme-github .markdown-body [type=reset],
+html.theme-github .markdown-body [type=submit] {-webkit-appearance:button;appearance:button}
+html.theme-github .markdown-body [type=checkbox],
+html.theme-github .markdown-body [type=radio] {box-sizing:border-box;padding:0}
+html.theme-github .markdown-body [type=number]::-webkit-inner-spin-button,
+html.theme-github .markdown-body [type=number]::-webkit-outer-spin-button {height:auto}
+html.theme-github .markdown-body [type=search]::-webkit-search-cancel-button,
+html.theme-github .markdown-body [type=search]::-webkit-search-decoration {-webkit-appearance:none;appearance:none}
+html.theme-github .markdown-body ::-webkit-input-placeholder {color:inherit;opacity:.54}
+html.theme-github .markdown-body ::-webkit-file-upload-button {-webkit-appearance:button;appearance:button;font:inherit}
+html.theme-github .markdown-body a:hover {text-decoration:underline}
+html.theme-github .markdown-body ::placeholder {color:#6e7681;opacity:1}
+html.theme-github .markdown-body hr::before {display:table;content:""}
+html.theme-github .markdown-body hr::after {display:table;clear:both;content:""}
+html.theme-github .markdown-body table {border-spacing:0;border-collapse:collapse;display:block;width:max-content;max-width:100%;overflow:auto}
+html.theme-github .markdown-body td,
+html.theme-github .markdown-body th {padding:0}
+html.theme-github .markdown-body details summary {cursor:pointer}
+html.theme-github .markdown-body details:not([open])>:not(summary) {display:none!important}
+html.theme-github .markdown-body [role=button]:focus,
+html.theme-github .markdown-body a:focus,
+html.theme-github .markdown-body input[type=checkbox]:focus,
+html.theme-github .markdown-body input[type=radio]:focus {outline:2px solid #2f81f7;outline-offset:-2px;box-shadow:none}
+html.theme-github .markdown-body [role=button]:focus:not(:focus-visible),
+html.theme-github .markdown-body a:focus:not(:focus-visible),
+html.theme-github .markdown-body input[type=checkbox]:focus:not(:focus-visible),
+html.theme-github .markdown-body input[type=radio]:focus:not(:focus-visible) {outline:solid 1px transparent}
+html.theme-github .markdown-body [role=button]:focus-visible,
+html.theme-github .markdown-body a:focus-visible,
+html.theme-github .markdown-body input[type=checkbox]:focus-visible,
+html.theme-github .markdown-body input[type=radio]:focus-visible {outline:2px solid #2f81f7;outline-offset:-2px;box-shadow:none}
+html.theme-github .markdown-body a:not([class]):focus,
+html.theme-github .markdown-body a:not([class]):focus-visible,
+html.theme-github .markdown-body input[type=checkbox]:focus,
+html.theme-github .markdown-body input[type=checkbox]:focus-visible,
+html.theme-github .markdown-body input[type=radio]:focus,
+html.theme-github .markdown-body input[type=radio]:focus-visible {outline-offset:0}
+html.theme-github .markdown-body kbd {display:inline-block;padding:3px 5px;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;color:#e6edf3;vertical-align:middle;background-color:#161b22;border:solid 1px rgba(110,118,129,.4);border-bottom-color:rgba(110,118,129,.4);border-radius:6px;box-shadow:inset 0 -1px 0 rgba(110,118,129,.4)}
+html.theme-github .markdown-body h1,
+html.theme-github .markdown-body h2,
+html.theme-github .markdown-body h3,
+html.theme-github .markdown-body h4,
+html.theme-github .markdown-body h5,
+html.theme-github .markdown-body h6 {margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}
+html.theme-github .markdown-body h2 {font-weight:600;padding-bottom:.3em;font-size:1.5em;border-bottom:1px solid #21262d}
+html.theme-github .markdown-body h3 {font-weight:600;font-size:1.25em}
+html.theme-github .markdown-body h4 {font-weight:600;font-size:1em}
+html.theme-github .markdown-body h5 {font-weight:600;font-size:.875em}
+html.theme-github .markdown-body h6 {font-weight:600;font-size:.85em;color:#848d97}
+html.theme-github .markdown-body p {margin-top:0;margin-bottom:10px}
+html.theme-github .markdown-body blockquote {margin:0;padding:0 1em;color:#848d97;border-left:.25em solid #30363d}
+html.theme-github .markdown-body ol,
+html.theme-github .markdown-body ul {margin-top:0;margin-bottom:0;padding-left:2em}
+html.theme-github .markdown-body ol ol,
+html.theme-github .markdown-body ul ol {list-style-type:lower-roman}
+html.theme-github .markdown-body ol ol ol,
+html.theme-github .markdown-body ol ul ol,
+html.theme-github .markdown-body ul ol ol,
+html.theme-github .markdown-body ul ul ol {list-style-type:lower-alpha}
+html.theme-github .markdown-body dd {margin-left:0}
+html.theme-github .markdown-body code,
+html.theme-github .markdown-body samp,
+html.theme-github .markdown-body tt {font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}
+html.theme-github .markdown-body pre {margin-top:0;margin-bottom:0;font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px;word-wrap:normal}
+html.theme-github .markdown-body .octicon {display:inline-block;overflow:visible!important;vertical-align:text-bottom;fill:currentColor}
+html.theme-github .markdown-body input::-webkit-inner-spin-button,
+html.theme-github .markdown-body input::-webkit-outer-spin-button {margin:0;-webkit-appearance:none;appearance:none}
+html.theme-github .markdown-body .mr-2 {margin-right:8px!important}
+html.theme-github .markdown-body::before {display:table;content:""}
+html.theme-github .markdown-body::after {display:table;clear:both;content:""}
+html.theme-github .markdown-body>:first-child {margin-top:0!important}
+html.theme-github .markdown-body>:last-child {margin-bottom:0!important}
+html.theme-github .markdown-body a:not([href]) {color:inherit;text-decoration:none}
+html.theme-github .markdown-body .absent {color:#f85149}
+html.theme-github .markdown-body .anchor {float:left;padding-right:4px;margin-left:-20px;line-height:1}
+html.theme-github .markdown-body .anchor:focus {outline:0}
+html.theme-github .markdown-body blockquote,
+html.theme-github .markdown-body details,
+html.theme-github .markdown-body dl,
+html.theme-github .markdown-body ol,
+html.theme-github .markdown-body p,
+html.theme-github .markdown-body pre,
+html.theme-github .markdown-body table,
+html.theme-github .markdown-body ul {margin-top:0;margin-bottom:16px}
+html.theme-github .markdown-body blockquote>:first-child {margin-top:0}
+html.theme-github .markdown-body blockquote>:last-child {margin-bottom:0}
+html.theme-github .markdown-body h1 .octicon-link,
+html.theme-github .markdown-body h2 .octicon-link,
+html.theme-github .markdown-body h3 .octicon-link,
+html.theme-github .markdown-body h4 .octicon-link,
+html.theme-github .markdown-body h5 .octicon-link,
+html.theme-github .markdown-body h6 .octicon-link {color:#e6edf3;vertical-align:middle;visibility:hidden}
+html.theme-github .markdown-body h1:hover .anchor,
+html.theme-github .markdown-body h2:hover .anchor,
+html.theme-github .markdown-body h3:hover .anchor,
+html.theme-github .markdown-body h4:hover .anchor,
+html.theme-github .markdown-body h5:hover .anchor,
+html.theme-github .markdown-body h6:hover .anchor {text-decoration:none}
+html.theme-github .markdown-body h1:hover .anchor .octicon-link,
+html.theme-github .markdown-body h2:hover .anchor .octicon-link,
+html.theme-github .markdown-body h3:hover .anchor .octicon-link,
+html.theme-github .markdown-body h4:hover .anchor .octicon-link,
+html.theme-github .markdown-body h5:hover .anchor .octicon-link,
+html.theme-github .markdown-body h6:hover .anchor .octicon-link {visibility:visible}
+html.theme-github .markdown-body h1 code,
+html.theme-github .markdown-body h1 tt,
+html.theme-github .markdown-body h2 code,
+html.theme-github .markdown-body h2 tt,
+html.theme-github .markdown-body h3 code,
+html.theme-github .markdown-body h3 tt,
+html.theme-github .markdown-body h4 code,
+html.theme-github .markdown-body h4 tt,
+html.theme-github .markdown-body h5 code,
+html.theme-github .markdown-body h5 tt,
+html.theme-github .markdown-body h6 code,
+html.theme-github .markdown-body h6 tt {padding:0 .2em;font-size:inherit}
+html.theme-github .markdown-body summary h1,
+html.theme-github .markdown-body summary h2,
+html.theme-github .markdown-body summary h3,
+html.theme-github .markdown-body summary h4,
+html.theme-github .markdown-body summary h5,
+html.theme-github .markdown-body summary h6 {display:inline-block}
+html.theme-github .markdown-body summary h1 .anchor,
+html.theme-github .markdown-body summary h2 .anchor,
+html.theme-github .markdown-body summary h3 .anchor,
+html.theme-github .markdown-body summary h4 .anchor,
+html.theme-github .markdown-body summary h5 .anchor,
+html.theme-github .markdown-body summary h6 .anchor {margin-left:-40px}
+html.theme-github .markdown-body summary h1,
+html.theme-github .markdown-body summary h2 {padding-bottom:0;border-bottom:0}
+html.theme-github .markdown-body ol.no-list,
+html.theme-github .markdown-body ul.no-list {padding:0;list-style-type:none}
+html.theme-github .markdown-body ol[type="a s"] {list-style-type:lower-alpha}
+html.theme-github .markdown-body ol[type="A s"] {list-style-type:upper-alpha}
+html.theme-github .markdown-body ol[type="i s"] {list-style-type:lower-roman}
+html.theme-github .markdown-body ol[type="I s"] {list-style-type:upper-roman}
+html.theme-github .markdown-body ol[type="1"] {list-style-type:decimal}
+html.theme-github .markdown-body div>ol:not([type]) {list-style-type:decimal}
+html.theme-github .markdown-body ol ol,
+html.theme-github .markdown-body ol ul,
+html.theme-github .markdown-body ul ol,
+html.theme-github .markdown-body ul ul {margin-top:0;margin-bottom:0}
+html.theme-github .markdown-body li>p {margin-top:16px}
+html.theme-github .markdown-body li+li {margin-top:.25em}
+html.theme-github .markdown-body dl {padding:0}
+html.theme-github .markdown-body dl dt {padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:600}
+html.theme-github .markdown-body dl dd {padding:0 16px;margin-bottom:16px}
+html.theme-github .markdown-body table th {font-weight:600}
+html.theme-github .markdown-body table td,
+html.theme-github .markdown-body table th {padding:6px 13px;border:1px solid #30363d}
+html.theme-github .markdown-body table td>:last-child {margin-bottom:0}
+html.theme-github .markdown-body table tr {background-color:#0d1117;border-top:1px solid #21262d}
+html.theme-github .markdown-body table tr:nth-child(2n) {background-color:#161b22}
+html.theme-github .markdown-body table img {background-color:transparent}
+html.theme-github .markdown-body img[align=right] {padding-left:20px}
+html.theme-github .markdown-body img[align=left] {padding-right:20px}
+html.theme-github .markdown-body .emoji {max-width:none;vertical-align:text-top;background-color:transparent}
+html.theme-github .markdown-body span.frame {display:block;overflow:hidden}
+html.theme-github .markdown-body span.frame>span {display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid #30363d}
+html.theme-github .markdown-body span.frame span img {display:block;float:left}
+html.theme-github .markdown-body span.frame span span {display:block;padding:5px 0 0;clear:both;color:#e6edf3}
+html.theme-github .markdown-body span.align-center {display:block;overflow:hidden;clear:both}
+html.theme-github .markdown-body span.align-center>span {display:block;margin:13px auto 0;overflow:hidden;text-align:center}
+html.theme-github .markdown-body span.align-center span img {margin:0 auto;text-align:center}
+html.theme-github .markdown-body span.align-right {display:block;overflow:hidden;clear:both}
+html.theme-github .markdown-body span.align-right>span {display:block;margin:13px 0 0;overflow:hidden;text-align:right}
+html.theme-github .markdown-body span.align-right span img {margin:0;text-align:right}
+html.theme-github .markdown-body span.float-left {display:block;float:left;margin-right:13px;overflow:hidden}
+html.theme-github .markdown-body span.float-left span {margin:13px 0 0}
+html.theme-github .markdown-body span.float-right {display:block;float:right;margin-left:13px;overflow:hidden}
+html.theme-github .markdown-body span.float-right>span {display:block;margin:13px auto 0;overflow:hidden;text-align:right}
+html.theme-github .markdown-body code,
+html.theme-github .markdown-body tt {padding:.2em .4em;margin:0;font-size:85%;white-space:break-spaces;background-color:rgba(110,118,129,.4);border-radius:6px}
+html.theme-github .markdown-body code br,
+html.theme-github .markdown-body tt br {display:none}
+html.theme-github .markdown-body del code {text-decoration:inherit}
+html.theme-github .markdown-body samp {font-size:85%}
+html.theme-github .markdown-body pre code {font-size:100%}
+html.theme-github .markdown-body pre>code {padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}
+html.theme-github .markdown-body .highlight {margin-bottom:16px}
+html.theme-github .markdown-body .highlight pre {margin-bottom:0;word-break:normal}
+html.theme-github .markdown-body .highlight pre,
+html.theme-github .markdown-body pre {padding:16px;overflow:auto;font-size:85%;line-height:1.45;color:#e6edf3;background-color:#161b22;border-radius:6px}
+html.theme-github .markdown-body pre code,
+html.theme-github .markdown-body pre tt {display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}
+html.theme-github .markdown-body .csv-data td,
+html.theme-github .markdown-body .csv-data th {padding:5px;overflow:hidden;font-size:12px;line-height:1;text-align:left;white-space:nowrap}
+html.theme-github .markdown-body .csv-data .blob-num {padding:10px 8px 9px;text-align:right;background:#0d1117;border:0}
+html.theme-github .markdown-body .csv-data tr {border-top:0}
+html.theme-github .markdown-body .csv-data th {font-weight:600;background:#161b22;border-top:0}
+html.theme-github .markdown-body [data-footnote-ref]::before {content:"["}
+html.theme-github .markdown-body [data-footnote-ref]::after {content:"]"}
+html.theme-github .markdown-body .footnotes {font-size:12px;color:#848d97;border-top:1px solid #30363d}
+html.theme-github .markdown-body .footnotes ol {padding-left:16px}
+html.theme-github .markdown-body .footnotes ol ul {display:inline-block;padding-left:16px;margin-top:16px}
+html.theme-github .markdown-body .footnotes li {position:relative}
+html.theme-github .markdown-body .footnotes li:target::before {position:absolute;top:-8px;right:-8px;bottom:-8px;left:-24px;pointer-events:none;content:"";border:2px solid #1f6feb;border-radius:6px}
+html.theme-github .markdown-body .footnotes li:target {color:#e6edf3}
+html.theme-github .markdown-body .footnotes .data-footnote-backref g-emoji {font-family:monospace}
+html.theme-github .markdown-body .pl-c {color:#8b949e}
+html.theme-github .markdown-body .pl-c1,
+html.theme-github .markdown-body .pl-s .pl-v {color:#79c0ff}
+html.theme-github .markdown-body .pl-e,
+html.theme-github .markdown-body .pl-en {color:#d2a8ff}
+html.theme-github .markdown-body .pl-s .pl-s1,
+html.theme-github .markdown-body .pl-smi {color:#c9d1d9}
+html.theme-github .markdown-body .pl-ent {color:#7ee787}
+html.theme-github .markdown-body .pl-k {color:#ff7b72}
+html.theme-github .markdown-body .pl-pds,
+html.theme-github .markdown-body .pl-s,
+html.theme-github .markdown-body .pl-s .pl-pse .pl-s1,
+html.theme-github .markdown-body .pl-sr,
+html.theme-github .markdown-body .pl-sr .pl-cce,
+html.theme-github .markdown-body .pl-sr .pl-sra,
+html.theme-github .markdown-body .pl-sr .pl-sre {color:#a5d6ff}
+html.theme-github .markdown-body .pl-smw,
+html.theme-github .markdown-body .pl-v {color:#ffa657}
+html.theme-github .markdown-body .pl-bu {color:#f85149}
+html.theme-github .markdown-body .pl-ii {color:#f0f6fc;background-color:#8e1519}
+html.theme-github .markdown-body .pl-c2 {color:#f0f6fc;background-color:#b62324}
+html.theme-github .markdown-body .pl-sr .pl-cce {font-weight:700;color:#7ee787}
+html.theme-github .markdown-body .pl-ml {color:#f2cc60}
+html.theme-github .markdown-body .pl-mh,
+html.theme-github .markdown-body .pl-mh .pl-en,
+html.theme-github .markdown-body .pl-ms {font-weight:700;color:#1f6feb}
+html.theme-github .markdown-body .pl-mi {font-style:italic;color:#c9d1d9}
+html.theme-github .markdown-body .pl-mb {font-weight:700;color:#c9d1d9}
+html.theme-github .markdown-body .pl-md {color:#ffdcd7;background-color:#67060c}
+html.theme-github .markdown-body .pl-mi1 {color:#aff5b4;background-color:#033a16}
+html.theme-github .markdown-body .pl-mc {color:#ffdfb6;background-color:#5a1e02}
+html.theme-github .markdown-body .pl-mi2 {color:#c9d1d9;background-color:#1158c7}
+html.theme-github .markdown-body .pl-mdr {font-weight:700;color:#d2a8ff}
+html.theme-github .markdown-body .pl-ba {color:#8b949e}
+html.theme-github .markdown-body .pl-sg {color:#484f58}
+html.theme-github .markdown-body .pl-corl {text-decoration:underline;color:#a5d6ff}
+html.theme-github .markdown-body g-emoji {display:inline-block;min-width:1ch;font-family:"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-.075em}
+html.theme-github .markdown-body g-emoji img {width:1em;height:1em}
+html.theme-github .markdown-body .task-list-item {list-style-type:none}
+html.theme-github .markdown-body .task-list-item label {font-weight:400}
+html.theme-github .markdown-body .task-list-item.enabled label {cursor:pointer}
+html.theme-github .markdown-body .task-list-item+.task-list-item {margin-top:4px}
+html.theme-github .markdown-body .task-list-item .handle {display:none}
+html.theme-github .markdown-body .task-list-item-checkbox {margin:0 .2em .25em -1.4em;vertical-align:middle}
+html.theme-github .markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox {margin:0 -1.6em .25em .2em}
+html.theme-github .markdown-body .contains-task-list {position:relative}
+html.theme-github .markdown-body .contains-task-list:focus-within .task-list-item-convert-container,
+html.theme-github .markdown-body .contains-task-list:hover .task-list-item-convert-container {display:block;width:auto;height:24px;overflow:visible;clip:auto}
+html.theme-github .markdown-body ::-webkit-calendar-picker-indicator {filter:invert(50%)}
+html.theme-github .markdown-body .markdown-alert {padding:8px 16px;margin-bottom:16px;color:inherit;border-left:.25em solid #30363d}
+html.theme-github .markdown-body .markdown-alert>:first-child {margin-top:0}
+html.theme-github .markdown-body .markdown-alert>:last-child {margin-bottom:0}
+html.theme-github .markdown-body .markdown-alert .markdown-alert-title {display:flex;font-weight:500;align-items:center;line-height:1}
+html.theme-github .markdown-body .markdown-alert.markdown-alert-note {border-left-color:#1f6feb}
+html.theme-github .markdown-body .markdown-alert.markdown-alert-note .markdown-alert-title {color:#2f81f7}
+html.theme-github .markdown-body .markdown-alert.markdown-alert-important {border-left-color:#8957e5}
+html.theme-github .markdown-body .markdown-alert.markdown-alert-important .markdown-alert-title {color:#a371f7}
+html.theme-github .markdown-body .markdown-alert.markdown-alert-warning {border-left-color:#9e6a03}
+html.theme-github .markdown-body .markdown-alert.markdown-alert-warning .markdown-alert-title {color:#d29922}
+html.theme-github .markdown-body .markdown-alert.markdown-alert-tip {border-left-color:#238636}
+html.theme-github .markdown-body .markdown-alert.markdown-alert-tip .markdown-alert-title {color:#3fb950}
+html.theme-github .markdown-body .markdown-alert.markdown-alert-caution {border-left-color:#da3633}
+html.theme-github .markdown-body .markdown-alert.markdown-alert-caution .markdown-alert-title {color:#f85149}
+
+/*# sourceMappingURL=/sm/6363502be14987472cbedf7d05639ef708ff569c1427348acf1bb6ea28139101.map */
+
+        html.theme-github body { background:#0d1117; color:#c9d1d9; padding:32px 16px; }
+
+        html.theme-github .page-wrap { max-width:960px; margin:0 auto; }
+
+        html.theme-github .repo-header { border-bottom:1px solid #30363d; padding-bottom:24px; margin-bottom:32px; }
+
+        html.theme-github .repo-header h1 { font-size:1.8em; margin:0 0 8px; }
+
+        html.theme-github .repo-header h1 a { color:#58a6ff; text-decoration:none; }
+
+        html.theme-github .repo-header h1 a:hover { text-decoration:underline; }
+
+        html.theme-github .repo-header p { color:#8b949e; margin:4px 0; }
+
+        html.theme-github .repo-meta { font-size:.9em; color:#8b949e; margin-top:8px; }
+
+        html.theme-github .markdown-body img { max-width:100%; height:auto; border-radius:6px; }
+
+        html.theme-github .markdown-body p img { display:inline; vertical-align:middle; margin:0 2px; }
+
+        html.theme-github .badges {
+            display:flex; flex-direction:row; flex-wrap:wrap;
+            align-items:center; justify-content:flex-start;
+            gap:6px; margin:12px 0;
+        }
+
+        html.theme-github .markdown-body .badges img,
+html.theme-github .badges img {
+            height:22px; width:auto; display:inline-block !important;
+            vertical-align:middle; margin:0; border-radius:2px;
+        }
+
+        html.theme-github .file-list { background:#161b22; border:1px solid #30363d; border-radius:6px;
+            padding:16px; margin:24px 0; }
+
+        html.theme-github .file-list h3 { margin:0 0 12px; }
+
+        html.theme-github .file-list ul { list-style:none; padding:0; margin:0; }
+
+        html.theme-github .file-list li { padding:6px 0; border-bottom:1px solid #21262d; font-size:.95em; }
+
+        html.theme-github .file-list li:last-child { border-bottom:none; }
+
+        html.theme-github .file-icon { margin-right:6px; }
+
+        html.theme-github input[type="checkbox"] { margin-right:6px; accent-color:#238636; }
+
+        html.theme-github a[href$=".pdf"]::after { content:" 📕"; font-size:.8em; }
+
+        html.theme-github #hero-avatar { display:none; }
+
+        html.theme-github footer { color:#8b949e; font-size:.85em; margin-top:48px;
+            padding-top:16px; border-top:1px solid #21262d; text-align:center; }
+
+        
+    </style>
+
+    <!-- tema Custom -->
+    <style id="css-custom">
+
+        html.theme-custom {
+            --bg:#0a0e27; --bg-secondary:#111d3d; --fg:#f0f4ff;
+            --fg-secondary:#b8c5d6; --muted:#7a8fa3; --accent:#6eb3ff;
+            --accent-dark:#4a9eff; --border:#1e2d47;
+            --success:#4ade80; --warning:#fbbf24;
+        }
+
+        *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+        html.theme-custom body {
+            font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
+                         "Helvetica Neue",Arial,sans-serif;
+            line-height:1.7; color:var(--fg);
+            background:linear-gradient(135deg,var(--bg) 0%,#0f1835 100%);
+            padding:48px 32px; max-width:900px; margin:0 auto; min-height:100vh;
+        }
+
+        html.theme-custom body::before {
+            content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+            background:linear-gradient(135deg,
+                rgba(110,179,255,0.20) 0%,rgba(110,179,255,0.10) 25%,
+                rgba(10,14,39,0.65) 70%,rgba(10,14,39,0.85) 100%);
+            mix-blend-mode:multiply; filter:blur(14px) contrast(1.02); opacity:0.98;
+        }
+
+        html.theme-custom body::after {
+            content:""; position:fixed; inset:0; z-index:0; pointer-events:none;
+            background-image:linear-gradient(transparent 50%,rgba(255,255,255,0.01) 50%);
+            background-size:100% 6px; mix-blend-mode:soft-light; opacity:0.6;
+        }
+
+        html.theme-custom body > * { position:relative; z-index:1; }
+
+        html.theme-custom .diag-accent::before {
+            content:""; position:fixed; inset:-20% -40% -20% -40%;
+            transform:rotate(-12deg); z-index:0; pointer-events:none;
+            background:linear-gradient(90deg,rgba(110,179,255,0.22),
+                rgba(110,179,255,0.08) 40%,rgba(10,14,39,0.65) 100%);
+            filter:blur(18px); mix-blend-mode:overlay; opacity:0.98;
+        }
+
+        html.theme-custom .hero { display:flex; align-items:center; justify-content:center;
+                gap:20px; margin-bottom:24px; }
+
+        html.theme-custom .avatar-round { display:block; border-radius:50%; object-fit:cover;
+            border:4px solid rgba(255,255,255,0.06);
+            box-shadow:0 8px 24px rgba(10,14,39,0.6),0 2px 6px rgba(110,179,255,0.08); }
+
+        html.theme-custom .hero-avatar { width:160px; height:160px;
+            border:5px solid rgba(110,179,255,0.12);
+            transition:transform 0.25s ease,box-shadow 0.25s ease; }
+
+        html.theme-custom .hero-avatar:hover { transform:translateY(-6px) scale(1.02);
+            box-shadow:0 18px 40px rgba(16,24,48,0.6); }
+
+        html.theme-custom h1 { font-size:2.4rem; line-height:1.2; margin-bottom:24px;
+            background:linear-gradient(135deg,var(--fg) 0%,var(--accent) 100%);
+            -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+            background-clip:text; font-weight:800; letter-spacing:-0.5px; }
+
+        html.theme-custom h2 { font-size:1.8rem; margin-top:32px; margin-bottom:16px;
+            color:var(--accent); font-weight:700; letter-spacing:-0.3px;
+            text-shadow:-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,2px 2px 0 #000; }
+
+        html.theme-custom h3 { font-size:1.3rem; margin:28px 0 12px; color:var(--fg); font-weight:700; }
+
+        html.theme-custom h4,
+html.theme-custom h5,
+html.theme-custom h6 { margin:20px 0 10px; color:var(--fg-secondary); font-weight:600; }
+
+        html.theme-custom p { margin-bottom:16px; color:var(--fg-secondary); font-size:1.05rem; }
+
+        html.theme-custom strong { color:var(--fg); font-weight:700; }
+
+        html.theme-custom em { color:var(--fg-secondary); font-style:italic; }
+
+        html.theme-custom a { color:var(--accent); text-decoration:none; transition:color 0.3s ease; }
+
+        html.theme-custom a:hover { color:var(--fg); }
+
+        /* Immagini contenuto: block centrate */
+        html.theme-custom article img { max-width:100%; height:auto; border-radius:6px;
+            display:block; margin:16px auto; }
+
+        /* Immagini inline dentro un paragrafo di testo */
+        html.theme-custom article p img { display:inline-block; vertical-align:middle; margin:0 2px; }
+
+        /* Badge: riga flex allineata a sinistra, DOPO article img per specificità */
+        html.theme-custom .badges {
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            align-items:center;
+            justify-content:flex-start;
+            gap:6px;
+            margin:12px 0;
+        }
+
+        /* Specificità (0,0,2,1) batte sia article img (0,0,0,2) che .badges img (0,0,1,1) */
+        html.theme-custom article .badges img,
+html.theme-custom .badges img {
+            height:22px;
+            width:auto;
+            display:inline-block !important;
+            vertical-align:middle;
+            margin:0;
+            border-radius:3px;
+            filter:drop-shadow(0 1px 3px rgba(0,0,0,0.25));
+            transition:transform 0.22s cubic-bezier(.2,.9,.3,1), filter 0.22s;
+            transform-origin:center;
+        }
+
+        html.theme-custom article .badges img:hover,
+html.theme-custom .badges img:hover {
+            transform:translateY(-3px) scale(1.05);
+            filter:drop-shadow(0 6px 12px rgba(110,179,255,0.22));
+        }
+
+        html.theme-custom ul,
+html.theme-custom ol { margin:16px 0 16px 24px; }
+
+        html.theme-custom li { margin-bottom:10px; color:var(--fg-secondary); }
+
+        html.theme-custom blockquote { font-style:italic; color:var(--muted);
+            border-left:4px solid var(--accent); padding:16px 20px;
+            background:rgba(110,179,255,0.08); border-radius:4px; margin:20px 0; }
+
+        html.theme-custom hr { border:0; border-top:2px solid var(--border); margin:40px 0; opacity:0.6; }
+
+        html.theme-custom table { width:100%; border-collapse:collapse; margin:24px 0;
+            border-radius:9px; overflow:hidden; background:var(--bg-secondary);
+            box-shadow:9px 22px 22px rgba(0,0,0,0.3); border:3px solid var(--accent); }
+
+        html.theme-custom thead { background:linear-gradient(90deg,
+            rgba(110,179,255,0.15) 0%,rgba(110,179,255,0.05) 100%); }
+
+        html.theme-custom th { padding:16px 12px; color:var(--accent); font-weight:700; text-align:left;
+            border-bottom:2px solid var(--border); font-size:0.95rem;
+            text-transform:uppercase; letter-spacing:0.5px; }
+
+        html.theme-custom td { padding:14px 12px; border-bottom:1px solid var(--border);
+            color:var(--fg-secondary); font-size:0.95rem; }
+
+        html.theme-custom tbody tr:hover { background:rgba(110,179,255,0.1); transition:background 0.2s ease; }
+
+        html.theme-custom tbody tr:last-child td { border-bottom:none; }
+
+        html.theme-custom code { font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+            font-size:0.9em; background:rgba(110,179,255,0.12);
+            border:1px solid rgba(110,179,255,0.2); border-radius:5px;
+            padding:0.2em 0.45em; color:var(--accent); }
+
+        html.theme-custom pre { background:#0b111e; border:1px solid var(--border); border-radius:8px;
+            padding:16px; overflow:auto; margin:16px 0; line-height:1.5; }
+
+        html.theme-custom pre code { background:transparent; border:none; padding:0;
+            color:#e6eef8; font-size:0.88rem; }
+
+        html.theme-custom input[type="checkbox"] { margin-right:6px; accent-color:var(--accent); }
+
+        html.theme-custom a[href$=".pdf"]::after { content:" 📕"; font-size:.8em; }
+
+        html.theme-custom .file-list { background:var(--bg-secondary); border:1px solid var(--border);
+            border-radius:8px; padding:16px; margin:24px 0; }
+
+        html.theme-custom .file-list h3 { margin:0 0 12px; }
+
+        html.theme-custom .file-list ul { list-style:none; padding:0; margin:0; }
+
+        html.theme-custom .file-list li { padding:6px 0; border-bottom:1px solid var(--border); font-size:.95em; }
+
+        html.theme-custom .file-list li:last-child { border-bottom:none; }
+
+        html.theme-custom .file-icon { margin-right:6px; }
+
+        html.theme-custom footer { margin-top:40px; color:var(--muted); font-size:0.95rem;
+            padding-top:20px; border-top:2px solid var(--border); text-align:center; }
+
+        @media (max-width:768px) {
+
+            html.theme-custom body { padding:32px 16px; }
+
+            html.theme-custom h1 { font-size:1.8rem; }
+
+            html.theme-custom h2 { font-size:1.4rem; }
+
+            html.theme-custom table { font-size:0.9rem; }
+
+            html.theme-custom td,
+html.theme-custom th { padding:10px 8px; }
+
+            html.theme-custom .hero { flex-direction:column; gap:12px; }
+
+            html.theme-custom .hero-avatar { width:100px; height:100px; }
+
+        
+}
+
+        
+    </style>
+
+    <!-- condiviso: highlighting + toggle button + transizioni -->
+    <style id="css-shared">
+
+/* --- syntax highlighting (condiviso) --- */
+pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight .hll { background-color: #49483e }
+.highlight { background: #272822; color: #F8F8F2 }
+.highlight .c { color: #959077 } /* Comment */
+.highlight .err { color: #ED007E; background-color: #1E0010 } /* Error */
+.highlight .esc { color: #F8F8F2 } /* Escape */
+.highlight .g { color: #F8F8F2 } /* Generic */
+.highlight .k { color: #66D9EF } /* Keyword */
+.highlight .l { color: #AE81FF } /* Literal */
+.highlight .n { color: #F8F8F2 } /* Name */
+.highlight .o { color: #FF4689 } /* Operator */
+.highlight .x { color: #F8F8F2 } /* Other */
+.highlight .p { color: #F8F8F2 } /* Punctuation */
+.highlight .ch { color: #959077 } /* Comment.Hashbang */
+.highlight .cm { color: #959077 } /* Comment.Multiline */
+.highlight .cp { color: #959077 } /* Comment.Preproc */
+.highlight .cpf { color: #959077 } /* Comment.PreprocFile */
+.highlight .c1 { color: #959077 } /* Comment.Single */
+.highlight .cs { color: #959077 } /* Comment.Special */
+.highlight .gd { color: #FF4689 } /* Generic.Deleted */
+.highlight .ge { color: #F8F8F2; font-style: italic } /* Generic.Emph */
+.highlight .ges { color: #F8F8F2; font-weight: bold; font-style: italic } /* Generic.EmphStrong */
+.highlight .gr { color: #F8F8F2 } /* Generic.Error */
+.highlight .gh { color: #F8F8F2 } /* Generic.Heading */
+.highlight .gi { color: #A6E22E } /* Generic.Inserted */
+.highlight .go { color: #66D9EF } /* Generic.Output */
+.highlight .gp { color: #FF4689; font-weight: bold } /* Generic.Prompt */
+.highlight .gs { color: #F8F8F2; font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #959077 } /* Generic.Subheading */
+.highlight .gt { color: #F8F8F2 } /* Generic.Traceback */
+.highlight .kc { color: #66D9EF } /* Keyword.Constant */
+.highlight .kd { color: #66D9EF } /* Keyword.Declaration */
+.highlight .kn { color: #FF4689 } /* Keyword.Namespace */
+.highlight .kp { color: #66D9EF } /* Keyword.Pseudo */
+.highlight .kr { color: #66D9EF } /* Keyword.Reserved */
+.highlight .kt { color: #66D9EF } /* Keyword.Type */
+.highlight .ld { color: #E6DB74 } /* Literal.Date */
+.highlight .m { color: #AE81FF } /* Literal.Number */
+.highlight .s { color: #E6DB74 } /* Literal.String */
+.highlight .na { color: #A6E22E } /* Name.Attribute */
+.highlight .nb { color: #F8F8F2 } /* Name.Builtin */
+.highlight .nc { color: #A6E22E } /* Name.Class */
+.highlight .no { color: #66D9EF } /* Name.Constant */
+.highlight .nd { color: #A6E22E } /* Name.Decorator */
+.highlight .ni { color: #F8F8F2 } /* Name.Entity */
+.highlight .ne { color: #A6E22E } /* Name.Exception */
+.highlight .nf { color: #A6E22E } /* Name.Function */
+.highlight .nl { color: #F8F8F2 } /* Name.Label */
+.highlight .nn { color: #F8F8F2 } /* Name.Namespace */
+.highlight .nx { color: #A6E22E } /* Name.Other */
+.highlight .py { color: #F8F8F2 } /* Name.Property */
+.highlight .nt { color: #FF4689 } /* Name.Tag */
+.highlight .nv { color: #F8F8F2 } /* Name.Variable */
+.highlight .ow { color: #FF4689 } /* Operator.Word */
+.highlight .pm { color: #F8F8F2 } /* Punctuation.Marker */
+.highlight .w { color: #F8F8F2 } /* Text.Whitespace */
+.highlight .mb { color: #AE81FF } /* Literal.Number.Bin */
+.highlight .mf { color: #AE81FF } /* Literal.Number.Float */
+.highlight .mh { color: #AE81FF } /* Literal.Number.Hex */
+.highlight .mi { color: #AE81FF } /* Literal.Number.Integer */
+.highlight .mo { color: #AE81FF } /* Literal.Number.Oct */
+.highlight .sa { color: #E6DB74 } /* Literal.String.Affix */
+.highlight .sb { color: #E6DB74 } /* Literal.String.Backtick */
+.highlight .sc { color: #E6DB74 } /* Literal.String.Char */
+.highlight .dl { color: #E6DB74 } /* Literal.String.Delimiter */
+.highlight .sd { color: #E6DB74 } /* Literal.String.Doc */
+.highlight .s2 { color: #E6DB74 } /* Literal.String.Double */
+.highlight .se { color: #AE81FF } /* Literal.String.Escape */
+.highlight .sh { color: #E6DB74 } /* Literal.String.Heredoc */
+.highlight .si { color: #E6DB74 } /* Literal.String.Interpol */
+.highlight .sx { color: #E6DB74 } /* Literal.String.Other */
+.highlight .sr { color: #E6DB74 } /* Literal.String.Regex */
+.highlight .s1 { color: #E6DB74 } /* Literal.String.Single */
+.highlight .ss { color: #E6DB74 } /* Literal.String.Symbol */
+.highlight .bp { color: #F8F8F2 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #A6E22E } /* Name.Function.Magic */
+.highlight .vc { color: #F8F8F2 } /* Name.Variable.Class */
+.highlight .vg { color: #F8F8F2 } /* Name.Variable.Global */
+.highlight .vi { color: #F8F8F2 } /* Name.Variable.Instance */
+.highlight .vm { color: #F8F8F2 } /* Name.Variable.Magic */
+.highlight .il { color: #AE81FF } /* Literal.Number.Integer.Long */
+
+/* --- pulsante toggle --- */
+
+        #theme-toggle {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.12);
+            background: rgba(15,20,40,0.78);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            color: #a0b8d0;
+            font-size: 17px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: transform 0.18s ease, background 0.18s ease,
+                        box-shadow 0.18s ease, color 0.18s ease;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.45);
+            padding: 0;
+            line-height: 1;
+            user-select: none;
+            outline: none;
+        }
+        #theme-toggle:hover {
+            transform: scale(1.13);
+            background: rgba(30,40,70,0.92);
+            box-shadow: 0 4px 22px rgba(110,179,255,0.28);
+            color: #6eb3ff;
+            border-color: rgba(110,179,255,0.35);
+        }
+        #theme-toggle:active { transform: scale(0.93); }
+        #theme-toggle::after {
+            content: attr(title);
+            position: absolute;
+            right: calc(100% + 10px);
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(10,14,39,0.92);
+            color: #b8c5d6;
+            font-size: 12px;
+            white-space: nowrap;
+            padding: 4px 10px;
+            border-radius: 6px;
+            border: 1px solid rgba(110,179,255,0.18);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.15s ease;
+        }
+        #theme-toggle:hover::after { opacity: 1; }
+        
+
+/* --- transizione body al cambio tema --- */
+body {
+    transition: background 0.35s ease, color 0.25s ease;
+}
+article, article * {
+    transition: color 0.25s ease, background-color 0.25s ease,
+                border-color 0.25s ease;
+}
+
+    </style>
+
+    <!-- Anti-flash: imposta solo html.className prima del paint -->
+    <script>(function(){var t=localStorage.getItem('gh-readme-theme')||'github';document.documentElement.className='theme-'+t;})();</script>
+
+    
+</head>
+<body>
+    <div class="hero" id="hero-avatar" style="display:none">
+  <img src="assets/images/avatar.jpg" alt="Avatar FabioFGBuono" class="avatar-round hero-avatar" loading="lazy" width="160" height="160">
+</div>
+    <div class="page-wrap">
+        
+        <article class="markdown-body">
+<h1 id="macrobiotics-of-macros">🍣👨‍🍳 Macrobiotics of Macros</h1>
+<p>Quasiquotation and the Art of Code Assembly: A Culinary Guide to Lisp Metaprogramming </p>
+<hr/>
+<div class="badges"><img alt="AST à la carte" src="https://img.shields.io/badge/AST-à%20la%20carte-brown"/>
+<img alt="Lambda Cuisine" src="https://img.shields.io/badge/λ-cuisine-orange"/>
+<img alt="Quasiquote Chef" src="https://img.shields.io/badge/quasiquote-chef-yellow"/>
+<img alt="Curry–Howard Pairing" src="https://img.shields.io/badge/Curry–Howard-wine%20pairing-red"/>
+<img alt="Macrobiotic Macros" src="https://img.shields.io/badge/macros-macrobiotic-blueviolet"/>
+<img alt="Structural Sharing Bistro" src="https://img.shields.io/badge/structural%20sharing-bistro-brown"/></div>
+<p><strong><em>Buonasera, signore e signori. Sono lo Chef della Programmazione, e stasera vi presento il mio capolavoro, l'Homoicinicity à la Récursive. Prima di servirlo, devo spiegarvi gli ingredienti con precisione formale. Preparatevi, perché questo piatto ha una genealogia che risale ai logici del '36 e si estende fino alle strutture categoriali della teoria dei tipi moderna.</em></strong> </p>
+<p>P.S. Nel regno dove il codice è dato e il dato è codice, anche i badge devono essere metaprogrammati.</p>
+<hr/>
+<div class="badges"><img alt="License: CC BY 4.0" src="https://img.shields.io/badge/license-CC%20BY%204.0-blue"/></div>
+<p>L'homoiconicity nasce con la logica formale e del lambda calcolo (Church, 1936), quando Alonzo Church dimostrò con il suo sistema formale che ogni computazione poteva essere rappresentata come funzione nel senso di funzione totale su un dominio, e ogni funzione poteva ricevere altre funzioni come argomenti, realizzando così una <strong>stratificazione funzionale di ordine superiore</strong> che rendeva la sintassi della definizione isomorfa alla forma della computazione stessa. Allora fermi, una funzione di ordine superiore è solo una funzione che accetta altre funzioni come input. Comunque Church pubblicò i suoi risultati nella <em>Annals of Mathematics</em>, e colui che aveva gettato i fondamenti logici, mediante la dimostrazione della computabilità universale del λ-calcolo, si rese conto solo in seguito che stava descrivendo il principio alla base di quello che sarebbe diventato il piatto più elegante e concettualmente puro della storia della programmazione. Successivamente, McCarthy lesse i lavori di Church e ragionando sulle strutture matematiche sottostanti mediante la teoria degli <strong>S-espressioni</strong> si rese conto che se il codice fosse rappresentato come lista, e se la lista costituisse il tipo di dato primitivo e universale di un linguaggio, il quale avrebbe dovuto possedere una <strong>semantica denotazionale isomorfa alla sua sintassi concreta</strong>, allora il codice stesso diverrebbe dato in senso strettamente letterale e strutturale, abolendo la distinzione categoriale tra fase sintattica e fase semantica. McCarthy prese questa intuizione folgorante e la rese vera nel linguaggio LISP (acronimo di "LISt Processing"), creando così il primo linguaggio homoiconic della storia mediante una semantica costruttiva in cui la valutazione stessa è operazione strutturale su dati S-espressivi, anche se il termine tecnico sarebbe stato coniato per decenni ancora.</p>
+<p>Aspetta ma non ho spiegato cosa significa sintassi astratta e concreta, questa è una delle prime cose che si fanno quando si studiano i linguaggi. La sintassi astratta è la struttura interna che il linguaggio utilizza per rappresentare il programma e viene mappata su un albero di sintassi astratta (AST) che cattura la semantica dell'espressione indipendentemente dai dettagli superficiali della notazione, questi dettagli superficiali sono la sintassi concreta che è la forma esteriore del codice, quella che il programmatore digita e che specifica la grammatica del linguaggio. Quando si vede per la prima volta la sintassi astratta, di solito tutti incontrano lo stesso esempio, una calcolatrice in notazione polacca, che poi non è altro che una notazione in cui gli operatori precedono gli operandi. L'esempio più banale è che l'espressione infissa <code>3 + 2</code> diventa <code>+ 3 2</code>. E sapete perché questa notazione è così potente? Perchè è già, in forma di sintassi astratta. Guardate cosa succede se prendiamo lèAST di <code>3 + 2</code> e lo rappresentiamo in ASCII:</p>
+<div class="highlight"><pre><span></span>      (+)
+     /   \
+   (3)   (2)
+</pre></div>
+<p>Un nodo radice che rappresenta lèoperazione, e due figli che rappresentano gli argomenti. Ora, se appiattiamo questo albero leggendo prima la radice e poi i figli da sinistra a destra, otteniamo</p>
+<div class="highlight"><pre><span></span>+ 3 2
+</pre></div>
+<p>Cioè la notazione polacca che appunto è la forma lineare più vicina possibile alla struttura dellèalbero. E' per questo che quando si introduce la sintassi concreta e la sintassi astratta si parte da qui e qui si capisce anche quanto fosse radicale lèintuizione di McCarthy. Infatti se la sintassi concreta di un linguaggio non è solo una notazione, ma è già una struttura dati canonica, allora la sintassi astratta non deve essere costruita, perché coincide con ciò che il programmatore scrive. E le S‑espressioni di Lisp trasformano ogni programma in una lista annidata che è contemporaneamente codice e dato, sintassi concreta e sintassi astratta, rappresentazione e struttura semantica, così in Lisp, lèAST è letteralmente ciò che scrivi e non va trasformato da un programma che lo stampa in modo più carino, un PrettyPrinter appunto.</p>
+<p>Detto quensto andiamo alla definizione matematica rigorosa del piatto che sto preparando. Un linguaggio L si dice <strong>homoiconic</strong> se e solo se esiste un <strong>isomorfismo strutturale naturale</strong> tra la sintassi astratta del programma (in senso categoriale di morfismo che preserva composizione e identità) e la sua rappresentazione interna come dato manipolabile in L medesimo, formalizzabile nella seguente maniera: </p>
+<p><strong>per ogni programma p ∈ Programs(L), esiste un'entità d ∈ Data(L) tale che la forma sintattica concreta di p coincida con la forma strutturale di d senza alcuna trasformazione intermedia e senza fasi nascoste di parsing o compilazione simbolica</strong>.</p>
+<p>Inoltre, per ogni operazione strutturale op : Data(L) → Data(L) nel reticolo delle operazioni su dati, esiste una corrispondente sequenza di riduzioni β (nel senso del λ-calcolo) che produce il medesimo risultato. In notazione di teoria dei tipi e teoria delle categorie: <strong>Code ≅ Data</strong>, dove l'isomorfismo ≅ denota un'equivalenza strutturale tra categorie <strong>C_Code</strong> e <strong>C_Data</strong>, e così abbiamo che le categorie matematiche di "codice" e "dato" in realtà sono la stessa cosa vista da angolazioni categorialmente distinte modulo un funtore covariante naturale. Questa equivalenza implica l'esistenza di <strong>functori naturali biaggiunti</strong> che preservano la composizione e l'identità a tutti i livelli categoriali pertinenti, generando una catena di trasformazioni naturali che connettono la sintassi alle sue riduzioni semantiche. Ma devo fare una pausa, qualcuno potrebbe spaventarsi, cosa significa funtori naturali biaggiunti? È facile anche se sembra un aggettivo uscito da un rituale esoterico... Un funtore è un modo ordinato di tradurre oggetti e frecce da una categoria a un'altra, la naturalità è la garanzia che questa traduzione non dipende da trucchi locali o scelte arbitrarie, ma rispetta la struttura globale e l'aggiunzione è la condizione per cui ogni mappa da un lato corrisponde in modo canonico a una mappa dall'altro, come se le due categorie fossero due lingue diverse che però condividono la stessa grammatica profonda. Dire che sono biaggiunti significa che questa corrispondenza funziona in entrambe le direzioni, senza perdita di informazione e senza ambiguità, come un dizionario perfetto che traduce avanti e indietro senza mai cambiare il significato, se avessi detto isomorfe avrei fatto prima. Ma torniamo a noi, se Code e Data sono categorie collegate da funtori naturali biaggiunti, significa che ogni trasformazione sintattica ha un corrispettivo semantico e ogni trasformazione semantica ha un corrispettivo sintattico. Allora la sintassi è semantica vista da vicino, la semantica è sintassi vista da lontano e questo è quello che McCarthy aveva intuito senza usare il linguaggio della teoria delle categorie.</p>
+<p>In LISP, come detto, ogni entità computazionale assume la forma di una <strong>S-expression</strong> (espressione simbolica, termine che McCarthy coniò per mancanza di nomenclatura più idonea), definita ricorsivamente come una S-expression è o un atomo simbolico appartenente all'<strong>algebra di Herbrand</strong> generata da una segnatura infinita di simboli primitivi, oppure una lista ordinata (a₁, a₂, ..., aₙ) di S-expression, dove ogni aᵢ è a sua volta una S-expression o un valore primitivo appartenente ai tipi base del dominio semantico (interi, reali, stringhe, booleani). </p>
+<p>Considerate questa forma: <code>(+ 1 2)</code>, una lista composta da tre elementi ordinati—il simbolo <code>+</code> (elemento dell'algebra di Herbrand), il numero intero 1, il numero intero 2, è pura struttura dati appartenente al monoide libero generato dai simboli e dai costruttori di lista di Data(LISP) (monoide libero sarebbe più facile, tutti i linguaggi formali sono monoidi liberi, una struttura con unèoperazione binaria associativa e unèunità). Quando l'interprete LISP incontra questa medesima forma, la esegue come istruzione computazionale mediante riduzione β e applicazione di funzioni: "Applica la <strong>valutazione ordinaria</strong> (applicative evaluation) della funzione denotata dal simbolo <code>+</code> agli argomenti numerici 1 e 2, producendo il risultato 3 mediante composizione funzionale." La S-expression è contemporaneamente il dato e l'AST, realizzando così concretamente l'identità Code ≅ Data. Questa simultaneità costitutiva è l'homoicinicity.</p>
+<p>Ora vi mostro come si cucina con questa proprietà fondamentale con un po' semantica alla piastra... Esiste un operatore linguistico detto <strong><code>quote</code></strong>, denotato tipograficamente mediante un apice singolo <code>'</code>, il quale implementa un meccanismo di sospensione della valutazione (lazy evaluation suspension) e un'elevazione del livello metalinguistico... ok sembra che stia parlando di magia ma è semplice, più o meno, quando scrivo <code>'(+ 1 2)</code>, comunico al sistema interpretativo mediante una direttiva sintattica di trattarla come dato strutturale puro, senza sottoporre gli elementi costituenti a riduzione semantica. In questo momento, posseggo una struttura dati che rappresenta il codice <code>(+ 1 2)</code>, e ci posso eseguire operazioni di <strong>introspezione sintattica</strong> e <strong>riflessione strutturale</strong>. L'operazione <code>(first '(+ 1 2))</code> mi restituisce il simbolo <code>+</code> come termine non valutato. l'operazione <code>(rest '(+ 1 2))</code> mi restituisce invece la sottolista <code>(1 2)</code> come struttura dati manipolabile. L'operazione <code>(second '(+ 1 2))</code> estrae l'elemento 1. Sto applicando operazioni standard di manipolazione lista, e quella lista che sto ispezionando <em>rappresenta il codice stesso</em>, creando così una stratificazione ricorsiva del metalinguaggio all'interno del linguaggio medesimo.</p>
+<p>E esiste il duale perfetto di questo operatore nel contesto della teoria dei funtori aggiunti denominato <strong><code>eval</code></strong>, il quale realizza l<em>operazione inversa di sollevamento semantico (semantic lowering), che fa, quando scrivo <code>(eval '(+ 1 2))</code>, prendo un dato, una lista strutturale appartenente a Data(LISP), e ordino al sistema di sottoporre questo termine al motore di valutazione ordinaria, trasformandolo da dato a risultato computazionale. Così l'interprete ritorna il valore 3, il risultato dell'applicazione della funzione <code>+</code> mediante riduzione β. Ho semplicemente preso il dato, l'ho trasmesso all'interprete tramite un passaggio di controllo tra livelli semantici, e l'interprete ha eseguito il compito che avrebbe eseguito identicamente se avessi scritto <code>(+ 1 2)</code> nel codice sorgente stesso. La bellezza teorica consiste nel fatto che <code>eval</code> è un'interfaccia verso il meccanismo interpretativo già esistente, una porta verso la dinamica computazionale già intrinseca al sistema, operando una rotazione nel </em><em>fibrato semantico</em>* del linguaggio se mi permettete la citazione colta. Quote e eval sono i duali costruttivi e logicamente reciproci della proprietà di homoicinicity, formando una coppia aggiuntiva e una coppia sottrattiva nel senso della teoria delle categorie, dove risultano essere aggiunti sinistri e destri di un funtore di elevazione/abbassamento semantico. Lisp in questa metafora ha una struttura in cui ogni punto sintattico ha una fibra semantica associata, e quote/eval sono le mappe che ti fanno cambiare sezione.</p>
+<p>Tuttavia il piatto non è ancora servito nella sua pienezza concettuale e qui arriviamo ai <strong>quasiquote e unquote</strong>, sofisticazioni introdotte negli anni '80 da Bawden e Rees e che elevarono il potere espressivo della manipolazione simbolica parametrica e introdussero una <strong>semantica di quasi-citazione</strong> di straordinaria potenza. Quasiquote, denotato con un backtick <code>`</code>, si comporta come quote, con la differenza che introduce buchi strutturali deliberati nel contesto sintattico e permette il calcolo parziale all'interno di strutture dati quasi-quotate. Unquote invece rappresentato una virgola <code>,</code> perché a noi piace spigarle bene le cose mica con un simbolo che si fa confusione... comqune dicevo, questo riempie i buchi con valori calcolati dinamicamente mediante riduzione semantica ordinaria, operando una composizione di livelli di astrazione semantica. La quasiquote è semplicemente un template, ci scrivi la forma del codice che vuoi ottenere e la tieni come dato, senza valutarla. Lèunquote (,) è il punto dove invece esegui qualcosa e inserisci il risultato dentro quel template. Lèunquote‑splice (,@) prende una lista risultante e la sparge dentro il template come più elementi. In pratica costruisci lo scheletro del codice e poi, solo nei buchi segnati, cucini e infili i risultati prima di servire. Comqunque, quando scrivo:</p>
+<div class="highlight"><pre><span></span><span class="p">(</span><span class="k">let</span><span class="w"> </span><span class="p">((</span><span class="nv">op</span><span class="w"> </span><span class="ss">'+</span><span class="p">)</span>
+<span class="w">      </span><span class="p">(</span><span class="nv">a</span><span class="w"> </span><span class="mi">5</span><span class="p">)</span>
+<span class="w">      </span><span class="p">(</span><span class="nv">b</span><span class="w"> </span><span class="mi">3</span><span class="p">))</span>
+<span class="w">  </span><span class="o">`</span><span class="p">(</span><span class="o">,</span><span class="nv">op</span><span class="w"> </span><span class="o">,</span><span class="nv">a</span><span class="w"> </span><span class="o">,</span><span class="nv">b</span><span class="p">))</span>
+</pre></div>
+<p>ottengo il valore <code>(+ 5 3)</code>, una lista strutturata che rappresenta un'espressione computazionale, costruita mediante valori legati durante l'esecuzione e mediante interpolazione parametrica nel template strutturale. Ho manipolato dati che rappresentano strutturalmente computazione mediante una algebra di generazione di termini guidata dai dati (data-driven term generation). Questo è quello che si chiama metaprogramming strutturale e simbolico. Arriviamo ora al piatto principale della nostra presentazione le macro macrobiotiche, la più potente astrazione nel arsenale LISP e la realizzazione concreta della metaprogrammazione sintattica. Una macro è una <strong>funzione di trasformazione sintattica ricorsiva</strong> che riceve codice non valutato (non ridotto secondo la semantica ordinaria) come dato strutturale di input e ritorna codice (nella forma di S-expression) come output da sottoporre ulteriormente a valutazione secondo le regole del sistema. Il tipo della macro può essere espresso come:</p>
+<div class="highlight"><pre><span></span>macro : (Data(L) × Env(L)) → Code(L)
+</pre></div>
+<p>dove Env(L) rappresenta l'ambiente lessicale catturato al momento della definizione, e Code(L) denota il codominio delle S-espressioni sottoposte a riduzione. Quando definisco:</p>
+<div class="highlight"><pre><span></span><span class="p">(</span><span class="nb">defmacro</span><span class="w"> </span><span class="nb">when</span><span class="w"> </span><span class="p">(</span><span class="nv">test</span><span class="w"> </span><span class="nv">body</span><span class="p">)</span>
+<span class="w">  </span><span class="o">`</span><span class="p">(</span><span class="k">if</span><span class="w"> </span><span class="o">,</span><span class="nv">test</span><span class="w"> </span><span class="p">(</span><span class="k">progn</span><span class="w"> </span><span class="o">,@</span><span class="nv">body</span><span class="p">)))</span>
+</pre></div>
+<p>e successivamente la invoco come:</p>
+<div class="highlight"><pre><span></span><span class="p">(</span><span class="nb">when</span><span class="w"> </span><span class="p">(</span><span class="nb">&gt;</span><span class="w"> </span><span class="nv">x</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span>
+<span class="w">  </span><span class="p">(</span><span class="nb">print</span><span class="w"> </span><span class="s">"positivo"</span><span class="p">)</span>
+<span class="w">  </span><span class="p">(</span><span class="nb">return</span><span class="w"> </span><span class="nv">x</span><span class="p">))</span>
+</pre></div>
+<p>il meccanismo operativo funziona come segue: la macro riceve il dato strutturale non valutato composto da <code>((&gt; x 0) (print "positivo") (return x))</code>—il test e il body permangono nello stato di <strong>forma dati pura</strong> senza alcuna riduzione intermedia trasforma questo dato mediante quasiquote e unquote in una nuova lista strutturale generata da parametri, producendo <code>(if (&gt; x 0) (progn (print "positivo") (return x)))</code>, e ritorna questa forma come termine sintattico da sottoporre a valutazione interpretativa ordinaria. Così ho appena esteso il linguaggio stesso manipolando dati strutturali e simbolici mediante algoritmi deterministici, trasformando strutture matematiche simboliche secondo regole di trasformazione sintattiche nel linguaggio stesso. Paul Graham dedicherà interi capitoli della sua opera fondazionale "On Lisp" all'esplorazione delle capacità espressive delle macro, concludendo che il limite della manipolazione simbolica coincide essenzialmente con i limiti della computabilità nel senso di Church-Turing dicendo che qualsiasi cosa tu possa immaginare nella manipolazione di strutture simboliche puoi realizzarla mediante macro.</p>
+<p>Il piatto si complica ulteriormente quando consideriamo gli sviluppi contemporanei in linguaggi di tipo dipendente come Agda e Idris dove la homoicinicity arriva a livelli di astrazione categoriale assurdi con il type-level computation e l'intrinsic metatheory. In questi sistemi i tipi sono valori appartenenti a universi tipizzati, e possono essere computati mediante algoritmi, manipolati come dati, e passati come argomenti a funzioni polimorfiche di ordine superiore. La proposizione <code>Type : Type</code>—il tipo <code>Type</code> è un valore di tipo <code>Type</code> stesso, è un principio costitutivo nel contesto di una <strong>gerarchia infinita di universi stratificati</strong> (Type : Type₁ : Type₂ : ...), sebbene generi ricorsione impredicativa che richiede gestione attenta della stratificazione per evitare paradossi teorici. Posso scrivere una funzione computazionale a livello di tipo che calcola e ritorna un tipo intero in base al valore di un input:</p>
+<div class="highlight"><pre><span></span><span class="nf">makeType</span><span class="w"> </span><span class="ow">:</span><span class="w"> </span><span class="kt">Bool</span><span class="w"> </span><span class="ow">-&gt;</span><span class="w"> </span><span class="kt">Type</span>
+makeType<span class="w"> </span>true<span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="kt">Nat</span>
+makeType<span class="w"> </span>false<span class="w"> </span><span class="ow">=</span><span class="w"> </span><span class="kt">String</span>
+</pre></div>
+<p>Ho scritto una funzione il cui codominio è Type stesso, e la cui realizzazione è una computazione che produce tipi con la riduzione sintattica. Il tipo è calcolato dinamicamente in funzione degli argomenti usando una valutazione ordinaria al momento del controllo di tipo. Qui codice, dato, tipo, metatipo, meta-metatipo e pure il tipo che abita nel palazzo di fronte si collassano in un'unica struttura matematica autoconsistente e stratificata mediante eliminator principles della teoria dell'informazione di Martin-Löf. E... BOOOM.... Se ci metti Martin-Löf dentro è la fine... non lo dovevo fare...</p>
+<p><em>A proposito, sapete cos'è il Curry nella Curry-Howard correspondence? Sì, la spezia! No, scherzando: è dal nome di Haskell Curry, il logico che scoprì le proprietà della currying mediante l'osservazione della dualità tra applicazione funzionale e implicazione logica, ma vi assicuro che una buona spezia curry avrebbe reso il piatto ancora più aromatico. Comunque, proseguiamo con la ricetta teorica.</em></p>
+<p>Questo sviluppo si fonda sulla Curry-Howard correspondence che stabilisce un isomorfismo strutturale naturale tra proposizioni logiche e tipi nel senso della teoria costruttiva, e tra dimostrazioni formali e programmi nel senso del lambda calcolo tipizzato, cioè se dimostri una proposizione logica usando una sequenza di inferenze costruttive in una teoria dei tipi intuizionista, stai scrivendo un programma il cui tipo esprime proprio quella proposizione come <strong>proposizione come tipo</strong> (propositions-as-types), viceversa, se scrivi un programma correttamente tipizzato, stai costruendo una dimostrazione formale, laddove il tipo del programma è la proposizione dimostrata. Programmi e dimostrazioni sono così il medesimo oggetto matematico osservato attraverso lenti teoriche diverse modulo il funtore di interpretazione proposizionale. L'homoicinicity a livello di tipo realizza questa identità strutturale a ogni strato della gerarchia infinita di universi concettuale, generando una catena infinita di correspondenze tra i livelli. Guardiamo brevemente il panorama del menu completo facendo una rassegna categoriale. </p>
+<p>LISP e Scheme rappresentano l'homoicinicity nella sua forma più pura, codice e dato sono intrinsecamente indistinguibili e intercambiabili mediante quote/eval. Clojure preserva questa proprietà anche nel contesto di strutture dati immutabili e persistence strutturale, operando una fusione tra immutabilità e manipolazione simbolica tramita <strong>structural sharing</strong>, è la ricetta moderna dello stesso piatto fondamentale. Racket poi estende Scheme con homoicinicity applicata universalmente in sintassi, moduli, macro, operatori di controllo, ovunque anche nel sistema di tipi stesso, tutto è dato manipolabile attraverso il reticolo delle funzioni meta-linguistiche. Poi c'è Ruby che permette forme di homoicinicity dinamica usando symbol e hash, raggiungendo una profondità espressiva notevole tramite <strong>reflection a runtime</strong> e <strong>dynamic dispatch</strong>, anche se senza la purezza teorica di LISP. Ma non dimentichiamo Python che ci da accesso con <code>ast</code> e <code>eval()</code>, che operano al livello di rappresentazione sintattica intermedia. Le macro di Rust che non potevamo dimenticare operano a livello di TokenStream, una homoicinicity implementata al livello sintattico dei token usando <strong>procedural macros</strong>, una scelta architetturale ricca di conseguenze teoriche che preserva la <strong>sicurezza di tipo</strong> durante la metaprogrammazione. C'è anche Julia che realizza homoicinicity cone <code>Expr</code> e <code>eval()</code>, permettendo una generazione di codice a livello di espressione e <strong>multiple dispatch</strong>, creando un ambiente dove specializzazione e metaprogramming coesistono.</p>
+<p>In ciascuno di questi linguaggi l'eliminazione della distinzione tra codice e dato usando funtori naturali che mappano il livello sintattico al livello semantico è l'invariante. Alcuni linguaggi mantengono questa proprietà in forma esplicita e universale (LISP, Scheme, Racket), altri la realizzano parzialmente con meccanismi localizzati (Rust, Python) e altri ancora la manifestano dinamicamente a runtime (Ruby, Julia). La profondità teorica varia inversamente con la staticità del sistema di tipi, man mano che un linguaggio incorpora più struttura tipizzata, deve sacrificare una certa immediatezza homoionica per guadagnare garanzie formali di correttezza.</p>
+<p>Ecco il vostro piatto, profumato, macrobiotico, semplice, ricorsivo nella sua essenza come funzione priva di caso base evidente, delizioso nella sua semplicità formale, una sola operazione primitiva (applicazione funzionale) che genera un intero universo della computazione, e quando lo mangiate, ascoltate bene, questo è il punto più importante, il piatto vi insegna a cucinare, trasformandovi da consumatori passivi in creatori attivi, da esecutori in architetti di linguaggi e sistemi.</p>
+<p>Buon appetito 😋</p>
+<hr/>
+<h2 id="license">📜 License</h2>
+<p>© 2025 FabioFGBuono, Chef Metalinguistico e Curatore della Pagina.<br/>
+Rilasciato sotto licenza Creative Commons Attribution 4.0 International (CC BY 4.0).</p>
+<p>This work is licensed under the <strong>Creative Commons Attribution 4.0 International License (CC BY 4.0)</strong>.<br/>
+You are free to share and adapt the material for any purpose, even commercially, provided that appropriate credit is given.</p>
+<p>For details, see the full license text: https://creativecommons.org/licenses/by/4.0/</p>
+        </article>
+        
+        <footer>Generato il 11/06/2026 12:49:41 — <a href="https://github.com/FabioFGBuono/Macrobiotics-of-Macros" target="_blank" rel="noopener noreferrer">Macrobiotics-of-Macros su GitHub</a></footer>
+    </div>
+
+    <!-- Toggle button -->
+    <button id="theme-toggle"
+            aria-label="Cambia tema"
+            title="Tema GitHub">&#x25D1;</button>
+
+    <!-- Script toggle: il button esiste già qui, nessun DOMContentLoaded necessario -->
+    <script>(function(){
+  var KEY    = 'gh-readme-theme';
+  var themes = ['github','custom'];
+  var icons  = {github:'\u25D1', custom:'\u2736'};
+  var labels = {github:'Tema GitHub', custom:'Tema Custom'};
+
+  function applyTheme(t) {
+    document.documentElement.className = 'theme-' + t;
+    document.body.classList.toggle('diag-accent', t === 'custom');
+    var hero = document.getElementById('hero-avatar');
+    if (hero) hero.style.display = (t === 'custom') ? 'flex' : 'none';
+    var btn  = document.getElementById('theme-toggle');
+    if (btn) { btn.textContent = icons[t]; btn.title = labels[t]; }
+  }
+
+  var saved = localStorage.getItem(KEY) || 'github';
+  applyTheme(saved);
+
+  var btn = document.getElementById('theme-toggle');
+  if (btn) {
+    btn.addEventListener('click', function() {
+      var cur  = document.documentElement.className.replace('theme-', '');
+      var next = themes[(themes.indexOf(cur) + 1) % themes.length];
+      localStorage.setItem(KEY, next);
+      applyTheme(next);
+    });
+  }
+})();</script>
+</body>
+</html>
